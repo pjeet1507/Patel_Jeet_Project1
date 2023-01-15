@@ -1,0 +1,64 @@
+/* We typically use one CSS file, named main.css to control all of our pages */
+
+/* this is a class we use to hide headings in our design */
+.hidden {
+    display: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #333;
+}
+
+#container {
+    width: 428px;
+    margin: 20px auto;
+    border: solid 1px darkgray;
+    border-radius: 15px;
+    background-color: #efefef;
+}
+
+h2 {    
+    font-size: 42px;
+    margin-bottom: 30px;
+    font-family: 'Catamaran', Arial, sans-serif;
+    font-weight: bold;
+    margin: 20px;
+    letter-spacing: 6px;
+    background-color: rgb(75, 75, 75);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+
+h3 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 36px;
+}
+
+p {
+     font-family: 'Lato', Arial, sans-serif;
+     margin-bottom: 20px;
+     line-height: 27px;
+     color: #363636;
+}
+
+#main-content {
+    display: grid;
+    grid-template-columns: repeat(4, 85px);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+article {
+    grid-column: 1/-1;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}
